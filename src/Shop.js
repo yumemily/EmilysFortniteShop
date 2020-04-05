@@ -50,14 +50,18 @@ export default function Shop() {
     return (
         <div className='mb-5'>
             <Jumbotron fluid>
-                <Container>
+                <Container className='shop-description'>
                     <h1 style={{fontSize: '3rem'}}>FORTNITE ITEM SHOP</h1>
                     <h3>
-                    Check out all of the Fortnite skins and other cosmetics available in the Fortnite Item shop today.
+                    Check out all of the Fortnite skins and other cosmetics 
+                    available in the Fortnite Item shop today.
+                    When clicking on a skin or any other cosmetic, you’ll find the 
+                    official description, price, item type, and item set.
                     </h3>
                 </Container>
             </Jumbotron>
-            <div className='store-heading'>CURRENT STORE</div>
+            <div className='store-heading-one'>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. SI EST NIHIL NISI CORPUS, SUMMA ERUNT ILLA</div>
+            <div className='store-heading-two'>CURRENT STORE</div>
             <div className='container'>
                 <Row style={{ justifyContent: 'space-around' }}>{itemHtml}</Row>
             </div>

@@ -81,7 +81,20 @@ body{
 
 
 /* Store Page Styling */
-.store-heading{ 
+
+.store-heading-one{ 
+  background-color: rgb(253, 247, 62);
+  color: black;
+  padding: .25rem;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  clip-path:polygon(2% 0,100% 0,98% 100%,0 100%);
+
+ }
+
+.store-heading-two{ 
   background-color: #F1EE8A;
   color: black;
   padding: .25rem;
@@ -94,8 +107,9 @@ body{
  .jumbotron{
    background-color: #191919;
    text-align: center;
+   margin-left: 12.5rem;
+   padding-right: 12.5rem;
  }
-
 
  /* Single Item Page */
  

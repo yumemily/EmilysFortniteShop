@@ -7,7 +7,7 @@ export default function About() {
                 <Container>
                     <h1 style={{fontSize: '3rem'}}>ABOUT</h1>
                     <h3>
-                    Check out all of the Fortnite skins and other cosmetics available in the Fortnite Item shop today.
+                    Head on over to the shop to check out all of the Fortnite skins and other cosmetics available in the Fortnite Item shop today.
                     </h3>
                 </Container>
             </Jumbotron>
