@@ -16,7 +16,6 @@ export default function MySuperNav() {
           Shop
         </Link>
       </Nav>
-      <Form inline></Form>
     </Navbar>
   );
 }
