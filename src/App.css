@@ -1,7 +1,7 @@
 /* Font credited to www.OnlineWebFonts.Com  */
 @import url(https://db.onlinewebfonts.com/c/800e985f75a5a56c2f7b4be502d286de?family=Burbank+Big+Condensed);
 
-*{
+* {
   color: white;
   font-family: "Burbank Big Condensed", sans-serif;
   box-sizing: border-box;
@@ -11,24 +11,28 @@ html {
   min-height: 100vh;
 }
 
-.mynav{
+.nav-bar {
   font-size: 1.5rem;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-body{
+body {
   background-color: #191919;
 }
 
-/*   Shop Page Item Cards Styling   */
+/*   Item Card Styes   */
 .UNCOMMON {
   border: 4px;
   border-color: rgb(108, 209, 130);
-  background: rgb(124,218,47);
-  background: radial-gradient(circle, rgba(124,218,47,1) 19%, rgba(2,175,0,1) 100%);
+  background: rgb(124, 218, 47);
+  background: radial-gradient(
+    circle,
+    rgba(124, 218, 47, 1) 19%,
+    rgba(2, 175, 0, 1) 100%
+  );
   width: 15rem;
   margin: 1rem;
 }
@@ -37,26 +41,38 @@ body{
   border: 4px;
   border-color: rgb(79, 184, 253);
   font-size: 2rem;
-  background: rgb(47,210,218);
-  background: radial-gradient(circle, rgba(47,210,218,1) 19%, rgba(0,116,175,1) 100%);
+  background: rgb(47, 210, 218);
+  background: radial-gradient(
+    circle,
+    rgba(47, 210, 218, 1) 19%,
+    rgba(0, 116, 175, 1) 100%
+  );
   width: 15rem;
   margin: 1rem;
 }
 
 .Epic {
   border: 4px;
-  border-color: rgb(195,106,255);
-  background: rgb(167,91,226);
-  background: radial-gradient(circle, rgba(167,91,226,1) 19%, rgba(81,44,136,1) 100%);
+  border-color: rgb(195, 106, 255);
+  background: rgb(167, 91, 226);
+  background: radial-gradient(
+    circle,
+    rgba(167, 91, 226, 1) 19%,
+    rgba(81, 44, 136, 1) 100%
+  );
   width: 15rem;
   margin: 1rem;
 }
 
-.Legendary {
+.LEGENDARY {
   border: 4px;
   border-color: rgb(235, 137, 72);
-  background: rgb(255,209,95);
-  background: radial-gradient(circle, rgba(255,209,95,1) 19%, rgba(242,119,0,1) 100%);
+  background: rgb(255, 209, 95);
+  background: radial-gradient(
+    circle,
+    rgba(255, 209, 95, 1) 19%,
+    rgba(242, 119, 0, 1) 100%
+  );
   width: 15rem;
   margin: 1rem;
 }
@@ -64,29 +80,37 @@ body{
 .Standard {
   border: 10px;
   border-color: rgb(124, 124, 124);
-  background: rgb(111,111,111);
-  background: radial-gradient(circle, rgba(111,111,111,1) 19%, rgba(40,40,40,1) 100%);
+  background: rgb(111, 111, 111);
+  background: radial-gradient(
+    circle,
+    rgba(111, 111, 111, 1) 19%,
+    rgba(40, 40, 40, 1) 100%
+  );
   width: 15rem;
   margin: 1rem;
 }
 
-.cardfooter{
+.card-footer {
   text-align: center;
   font-size: 2rem;
   color: white;
   height: 100%;
 }
 
-.stretched-link{
+.stretched-link {
   color: white;
 }
 
-.stretched-link:hover{
-  color: #F1EE8A;
+.stretched-link:hover {
+  color: #f1ee8a;
 }
 
+/* Store Page */
 
-/* Store Page Styling */
+.jumbotron {
+  background-color: #191919;
+  text-align: center;
+}
 
 .jumbotron-container {
   padding-left: 12rem;
@@ -94,42 +118,33 @@ body{
   color: black;
 }
 
-@media (max-width: 767.98px) { 
+/* At small screen devices, remove padding */
+@media (max-width: 767.98px) {
   .jumbotron-container {
     padding: 0;
   }
- }
+}
 
-.store-heading-one{ 
+.store-heading-one {
   background-color: rgb(253, 247, 62);
-  padding: .25rem;
+  padding: 0.25rem;
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  clip-path:polygon(2% 0,100% 0,98% 100%,0 100%);
+  clip-path: polygon(2% 0, 100% 0, 98% 100%, 0 100%);
+}
 
- }
-
-.store-heading-two{ 
-  background-color: #F1EE8A;
+.store-heading-two {
+  background-color: #f1ee8a;
   color: black;
-  padding: .25rem;
+  padding: 0.25rem;
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
- }
+}
 
- .jumbotron{
-   background-color: #191919;
-   text-align: center;
+/* Single Item Page */
 
- }
-
- /* Single Item Page */
- 
- .itemcard{
-   background-color: #282828;
- }
-
-
-
+.itemcard {
+  background-color: #282828;
+}
