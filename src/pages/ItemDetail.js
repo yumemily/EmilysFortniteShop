@@ -53,7 +53,6 @@ export default function Shop() {
               <h5>{singleItem.price} V-BUCKS</h5>
               <h5 className="card-text">{singleItem.description}</h5>
               <h5 className="card-text">Item type: {singleItem.type.name}</h5>
-              <h5 className="card-text">Set: {singleItem.set.partOf}</h5>
               <button
                 style={{
                   backgroundColor: "#0D7EC2",
