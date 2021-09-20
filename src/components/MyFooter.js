@@ -1,16 +1,16 @@
 import React from 'react'
-import favicon from './images/favicon.png'
+import favicon from '../images/favicon.png'
 
 export default function MyFooter() {
   return (
-    <div class='container'>
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-          <div class="col-12 col-md">
-            <img class="mb-2" src={favicon} alt="favicon" width="24" height="24" />
-            <small class="d-block mb-3 text-muted">©
+    <div className='container footer'>
+      <footer className="pt-4 my-md-5 pt-md-5 border-top">
+        <div className="row">
+          <div className="col-12 col-md">
+            <img className="mb-2" src={favicon} alt="favicon" width="24" height="24" />
+            <small className="d-block mb-3 text-muted">©
             <a href='https://github.com/yumemily/EmilysFortniteShop' style={{ color: 'teal' }}>
-                {' '}Emily Yum</a> 2020</small>
+                {' '}Emily Yum</a> 2021</small>
           </div>
           <div class="col-6 col-md">
             <h5>Features</h5>

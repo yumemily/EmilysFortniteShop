@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import About from './About'
-import Nav from './Nav'
-import Shop from './Shop'
-import ItemDetail from './ItemDetail'
-import NoMatch from './NoMatch'
-import MyFooter from './MyFooter'
+import About from './pages/About'
+import Nav from './components/Nav'
+import Shop from './pages/Shop'
+import ItemDetail from './pages/ItemDetail'
+import NoMatch from './pages/NoMatch'
+import MyFooter from './components/MyFooter'
 
 import { Switch, Route } from 'react-router-dom'
 import { Container, Jumbotron } from 'react-bootstrap'
