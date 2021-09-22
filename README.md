@@ -12,6 +12,11 @@ Here you can find the direct link:
 - Retrieves items data from a third party API (Fornite IO API)
 - Handles routing with React Router
 
+## 📸 Screenshots
+
+Mobile Device
+![fortnite-mobile](https://user-images.githubusercontent.com/59642617/134272983-2eeaa32a-1969-427e-ae2f-40f9b16d4bcb.PNG)
+
 ## 🚀 Technologies
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/web/guides/quick-start)
