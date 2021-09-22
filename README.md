@@ -14,7 +14,7 @@ Here you can find the direct link:
 
 ## 📸 Screenshots
 
-**Mobile Device**
+**Mobile Device**\
 ![Mobile Device](https://user-images.githubusercontent.com/59642617/134272983-2eeaa32a-1969-427e-ae2f-40f9b16d4bcb.PNG)
 
 ## 🚀 Technologies
